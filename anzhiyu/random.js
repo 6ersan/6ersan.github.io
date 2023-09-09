@@ -1,0 +1,1 @@
+var posts=["2023/04/24/analysis-intro/","2023/04/26/Tao-Finite-time-blowup-constructions-for-supercritical-equation/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};

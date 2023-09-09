@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>陶哲轩-关于超临界方程的有限时间blowup的构造</title>
+      <link href="/2023/04/26/Tao-Finite-time-blowup-constructions-for-supercritical-equation/"/>
+      <url>/2023/04/26/Tao-Finite-time-blowup-constructions-for-supercritical-equation/</url>
+      
+        <content type="html"><![CDATA[<p>视频链接：<a class="btn-anzhiyu " href="https://youtu.be/_ckfHYuAjRA"   title="YouTube"><span>YouTube</span></a><a class="btn-anzhiyu " href="https://www.bilibili.com/video/BV1w64y1i71f/?share_source=copy_web&vd_source=c03d7cc5fdf8b11a02fed28dafbf15b3"   title="Bilibili"><span>Bilibili</span></a></p><p><strong>发展方程</strong>是指关于时间变量$t$的ODE(s)或PDE(s)，一些简单例子:</p><ul><li><p>一阶ODE $\partial_t u = F(u)$ , 其中$u :[0, T) \rightarrow \mathbb{R}^m$是未知的场，$F : \mathbb{R}^m \rightarrow \mathbb{R}^m$是非线性的；</p></li><li><p>非线性波方程(NLW) $- \partial_{tt} u + \Delta u = F(u)$，其中$u: [0, T) \times \mathbb{R}^d \rightarrow \mathbb{R}^d$是未知的场，$F : \mathbb{R}^m \rightarrow \mathbb{R}^m$是非线性的；</p></li><li><p>非线性Schrödinger方程(NLS) $i \partial_t u + \Delta u = F(u)$，其中$u: [0, T) \times \mathbb{R}^d \rightarrow \mathbb{C}^m$是未知的场，$F: \mathbb{C}^m \rightarrow \mathbb{C}^m$是非线性的.</p></li></ul><p>此报告关注那些在空间中衰减的<strong>光滑</strong>解.</p><p>一个重要的发展方程的例子<strong>不可压Navier-Stokes方程</strong></p><p>$$<br>\begin{aligned}<br>\partial_t u + (u \cdot \nabla) u &amp; =  \nu \Delta u - \nabla p \\<br>\nabla \cdot u &amp;= 0<br>\end{aligned}<br>$$</p><p>其中$u : [0, T) \times \mathbb{R}^3 \rightarrow \mathbb{R}^3$是未知速度场，$p: [0, T) \times \mathbb{R}^3 \rightarrow \mathbb{R}$是未知压力，$\nu &gt; 0$是给定的粘性常数.</p><p><strong>欧拉方程</strong>是Navier-Stokes方程的$\nu = 0$的极限情况.</p><p>关于解发展方程的一个自然的问题是<strong>初值问题</strong>，即当给定$t = 0$的初始数据时，构造与这一初值对应的之后时间的解.</p><ul><li>对于ODE $\partial_t u = F(u)$，指定初始位置$u(0) = u_0 \in \mathbb{R}^m$.</li><li>对于NLW$- \partial_{tt} u + \Delta u = F(u)$，指定初始位置 $u(0) = u_0:\mathbb{R}^d \rightarrow \mathbb{R}^d$以及初始速度 $\partial_t u(0) = u_1: \mathbb{R}^d \rightarrow \mathbb{R}^m.$</li><li>对于NLS $i \partial_t u + \Delta u = F(u)$，指定初始位置$u(0) = u_0: \mathbb{R}^d \rightarrow \mathbb{C}^m$.</li></ul><div class="note modern"><p><mark class="hl-label blue">定理</mark> （某个定理）<em>这些内容知道</em></p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 报告 </category>
+          
+          <category> NS方程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 报告 </tag>
+            
+            <tag> PDE </tag>
+            
+            <tag> NS方程 </tag>
+            
+            <tag> blow up </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分析学系列讲义</title>
+      <link href="/2023/04/24/analysis-intro/"/>
+      <url>/2023/04/24/analysis-intro/</url>
+      
+        <content type="html"><![CDATA[<p>主要包含以下部分内容：</p><ul><li>实分析</li><li>测度理论</li><li>泛函分析</li><li>傅里叶分析</li><li>广义函数论</li><li>微局部分析</li></ul><p>可通过<a href="/categories/">各同名分类条目</a>寻找到相应的讲义.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 讲义 </category>
+          
+          <category> 分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 分析 </tag>
+            
+            <tag> 讲义 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
